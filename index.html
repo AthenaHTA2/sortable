@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable - 01F Raid</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <a id="title" href="/"><h1>Superheroes</h1></a>
+    <div class="container">
+        <label for="search">...🤔...</label>
+        <input
+          type="text"
+          id="searchBar"
+          onkeyup="tableSearch()"
+          placeholder="Search Here..."
+        />
+      </div>
+
+
+    <form action="" >
+        <label for="results">...Results...</label>
+        <select name="results" id="results">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="999">All</option>
+        </select>
+        <input type="submit" value="Show" >
+      </form>
+      <!-- <h2 id="page">Pages</h2> -->
+</body>
+<script src="sortable.js"></script>
+</html>

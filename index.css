@@ -1,0 +1,125 @@
+body {
+    background-image: url("super.jpg")
+}
+
+h1 { 
+    background-color: blueviolet;
+    color: yellow;
+    text-align: center;
+    border-spacing: 0px;
+    border: 3px solid yellow;
+    font-size: 250%;
+    font-weight: 900;
+    border-start-end-radius: 1000px;
+    border-end-start-radius: 1000px;
+ 
+}
+
+#title{
+    text-decoration: none;
+}
+
+h1:hover {
+    border: 3px solid blueviolet;
+    background-color:yellow;
+    color: blueviolet;
+}
+/* .search-wrapper{
+    background-color: purple;
+    color: yellow;
+    text-align: center;
+    border: 3px solid yellow;
+    font-size: 150%;
+    font-weight:400;
+    border-start-end-radius: 1000px;
+    border-end-start-radius: 1000px;
+} */
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+input {
+    font-size: 1rem;
+}
+
+#myTable {
+    text-align: left;
+    grid-template-columns: repeat(auto-fill), minmax(150px,1fr);
+    border-collapse: collapse;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+td,th {
+
+    padding: 4px 8px;
+    border: 1px solid rgb(0, 0, 0);
+}
+th {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+tr:nth-child(even) {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+tr:hover{
+    color: blue;
+    background-color: pink;
+}
+th:hover {
+    color:blue;
+    background-color:pink;
+}
+
+label {   
+    background-color: blueviolet;
+    color: yellow;
+    text-align: center;
+    border: 3px solid yellow;
+    font-size: 100%;
+    font-weight: 250;
+    border-start-end-radius: 25px;
+    border-end-start-radius: 25px;
+
+}
+
+.hide {
+    display: none;
+}
+
+
+ #pageNumber a{
+    color: white;
+    font-weight: bold 250;
+    font-size: 2.5vh;
+    background-color: blueviolet;
+
+ }
+
+ #pageNumber {
+    color: white;
+    font-weight: bold 250;
+    font-size: 2.5vh;
+    background-color: blueviolet;
+    width: fit-content;
+
+ }
+
+ #pageNumber a:hover{
+    color:blue;
+    background-color:pink;
+ }
+
+ #pageNumber a.active{
+    background-color: white;
+    color: blue;
+ }
